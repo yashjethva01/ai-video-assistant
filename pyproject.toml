@@ -1,0 +1,10 @@
+[project]
+name = "ai-video-assistant"
+version = "0.1.0"
+description = "AI-powered video assistant for transcription, summarization, insights, and RAG-based Q&A"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "langchain-chroma>=1.1.0",
+    "streamlit>=1.62.0",
+]
